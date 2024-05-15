@@ -1,4 +1,36 @@
 from random import randint
+##TODO Implement job/business distribution
+
+
+
+"""
+Stores:
+General Store (Attracts Low-Level Adventurers) (1 per 300 people, minimum 1)
+Adventurer Shop (Attracts Higher Level Adventurers) (1 per 1000 people)
+Bookstore (Attracts Low-Level casters, High Level casters, monks) (1 per 2000 people)
+Tailor Shop (Attracts Rogues but only a little) (1 per 600 people)
+Potion Shop (Attracts low-level casters) - Poisoner's Den (Attracts low-level casters, rogues) (1 per 1200 people)
+Magic Item Shop (1 per 20000 people)
+Mundane Arcane Shop (1 per 8000 people)
+Music/Games Shop (1 per 2000 people)
+Street Vendors (common)
+
+Crafts:
+Apothecary (Attracts Rangers) (1 per 1800 people, minimum 1)
+Blacksmith (Attracts Barbarians, Rogues, Clerics) (1 per 700 people)
+Bowyer/Fletcher (Attracts Rogues, Fighters) (1 per 2200 people)
+Jeweler/Gem Cutter (1 per 1500 people)
+Leatherworker (1 per 1400 people)
+
+Hospitality
+Inn/Tavern (Any, 1 per 300 people, minimum 1)
+Thief's Den (1 per 1500 people) (Attracts Rogues, Fighters, Rangers)
+Cult Den (1 per 15000 people) (Attracts Low-Level Casters, lvl 5+ people)
+Temple Services (1 per 3000 people) (Attracts Clerics, Monks, Paladins)
+Shrine (1 per 750 people) (Attracts Clerics, Paladins)
+
+
+"""
 
 max_pop = randint(22500, 32500)
 total_demographics = {"low leveled": 0, "lvl 5": 0, "lvl 5+ caster": 0, "total": 0}
